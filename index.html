@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Pokémon Slider - MapaDev Week</title>
+
+    <link rel="shortcut icon" href="src/imagens/acceleron1.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+   
+
+</head>
+
+  <body>
+    <header class="cabecalho">
+        <img src="src/imagens/acceleron1.png" alt="pokebola" class="pokebola">
+        <h1 class="titulo">&lt Wylde.Tuk &gt</h1>
+    </header>
+
+    <main class="pokemon-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="src/imagens/seta.png" alt="seta voltar">
+        </button>
+
+        <ul class="lista-pokemon">
+            <li class="cartao selecionado fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Nolo Pasaro</h2>
+                    <p class="vida"><img src="src/imagens/teku logo.png" alt="teku-logo" class="icon"></p>
+                </div>
+
+                <div class="container-image">
+                    <img src="src/imagens/nolo.png" alt="nolo pasaro" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Synkro, High Voltage, Spectyte.</h3>
+                    <p class="texto">Nolo Pasaro é o atual líder do Teku, está confiante e tem uma paixão por dirigir. Ele tem um ódio feroz por Tork Maddox dos Metal Maniacs , culpando-o pela morte de seu irmão mais velho.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Vert Wheeler</h2>
+                    <p class="vida"><img src="src/imagens/teku logo.png" alt="teku-logo" class="icon"></p>
+                </div>
+
+                <div class="container-image">
+                    <img src="src/imagens/vert.png" alt="Vert-Whealler" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo"> Deora II, Reverb.</h3>
+                    <p class="texto">Um skatista e surfista proeminente antes de se tornar um piloto, ele muitas vezes é muito arrogante e excessivamente zeloso. Ele é um piloto habilidoso, vencendo a World Race e a Ultimate Race, embora duvidando de si mesmo no meio.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Kurt Wylde</h2>
+                    <p class="vida"><img src="src/imagens/teku logo.png" alt="teku-logo" class="icon"></p>
+                </div>
+
+                <div class="container-image">
+                    <img src="src/imagens/kurt.png" alt="Kurt-wylde" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Sling Shot, Battle Spec.</h3>
+                    <p class="texto">Ele é um piloto severo, mas pode ser rabugento às vezes. Mostrou algum remorso por suas ações passadas, além de dificuldade em confiar nas pessoas, sempre questionando tudo que pode.</p>
+                </div>
+            </li>
+                
+            <li class="cartao fundo-3">
+                    <div class="informacoes">
+                        <h2 class="nome">Shirako Takamoto</h2>
+                        <p class="vida"><img src="src/imagens/teku logo.png" alt="teku-logo" class="icon"></p>
+                    </div>
+    
+                    <div class="container-image">
+                        <img src="src/imagens/shirako.png" alt="Shirako-Takamoto" class="imagem-pokemon">
+                    </div>
+    
+                    <div class="descricao">
+                        <h3 class="titulo">Bassline, Nightlife.</h3>
+                        <p class="texto">Shirako Takamoto dirige com estilo, refletindo sua paixão pela música. Normalmente não brilha muito nas pistas, mas quando resolve correr pra valer ninguem o segura. Tambem adora irritar porkchop com seus sons extremos.</p>
+                    </div>
+           </li>
+                    
+           <li class="cartao fundo-3">
+                <div class="informacoes">
+                     <h2 class="nome">Karma Eiss</h2>
+                     <p class="vida"><img src="src/imagens/teku logo.png" alt="teku-logo" class="icon"></p>
+                </div>
+        
+                 <div class="container-image">
+                      <img src="src/imagens/karma.png" alt="Karma-Eiss" class="imagem-pokemon">
+                 </div>
+        
+                 <div class="descricao">
+                       <h3 class="titulo">Chicane.</h3>
+                      <p class="texto">Ela é muito calma e equilibrada. Ela aprende rápido, estudando como funcionam os Racing-Drones e o propósito dos Reinos de Corrida. Karma está mais focada em vencer corridas e os Racing Drones do que o drama entre a Teku e a Metal Maniacs.</p>
+                 </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                     <h2 class="nome">Tork Maddox</h2>
+                     <p class="vida"><img src="src/imagens/metal-maniacs.png" alt="metal-maniacs" class="icon"></p>
+                </div>
+        
+                 <div class="container-image">
+                      <img src="src/imagens/tork-maddox.png" alt="Tork-maddox" class="imagem-pokemon">
+                 </div>
+        
+                 <div class="descricao">
+                       <h3 class="titulo">Hollowback.</h3>
+                      <p class="texto">Lider da Metal Maniacs. Embora agressivo e barulhento como os outros da equipe, ele também é severo e equilibrado, mantendo os Metal Maniacs sob controle quando eles saem da linha. Muitas vezes sofre de pesadelos sobre o acidente de Tone Pasaro demostrando remorso. </p>
+                 </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                     <h2 class="nome">Taro Kitano</h2>
+                     <p class="vida"><img src="src/imagens/metal-maniacs.png" alt="metal-maniacs" class="icon"></p>
+                </div>
+        
+                 <div class="container-image">
+                      <img src="src/imagens/taro-kitano.png" alt="taro-kitano" class="imagem-pokemon">
+                 </div>
+        
+                 <div class="descricao">
+                       <h3 class="titulo">Rivited.</h3>
+                      <p class="texto">Ao contrario de seus companheiros, Taro é calmo, legal e controlado em situações estressantes. É o segundo no comando da Metal Maniacs. Provando ser determinado e focado ao completar o Reino da Água em tempo recorde depois de sair pelo portal dos Racing-Drones faltando menos de 20 min.</p>
+                 </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                     <h2 class="nome">Mark Wylde</h2>
+                     <p class="vida"><img src="src/imagens/metal-maniacs.png" alt="metal-maniacs" class="icon"></p>
+                </div>
+        
+                 <div class="container-image">
+                      <img src="src/imagens/mark-wylde.png" alt="Mark-Wylde" class="imagem-pokemon">
+                 </div>
+        
+                 <div class="descricao">
+                       <h3 class="titulo">Spine Buster, Flathead Fury.</h3>
+                      <p class="texto">Após cumprir 2 anos de prisão por culpa de seu irmão, se tornou hostil com quase todos, especialmente seu irmão Kurt, constantemente tenta ter problemas com ele durante os reinos, prometendo resolver tudo com ele e finalmente descidir quem é o melhor piloto.</p>
+                 </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                     <h2 class="nome">Deezel "Porkchop" Riggs</h2>
+                     <p class="vida"><img src="src/imagens/metal-maniacs.png" alt="metal-maniacs" class="icon"></p>
+                </div>
+        
+                 <div class="container-image">
+                      <img src="src/imagens/porkchop.png" alt="Porkchop" class="imagem-pokemon">
+                 </div>
+        
+                 <div class="descricao">
+                       <h3 class="titulo">Jack Hammer, Piledriver.</h3>
+                      <p class="texto">Ele é o músculo dos Metal Maniacs e rápido em se irritar. Ele usa um colar de osso que ele morde para controlar sua raiva. Se recusa a contornar qualquer obstáculo, preferindo esmaga-los, nunca perdeu uma corrida até conhecer o Teku." </p>
+                 </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                     <h2 class="nome">Mitchell McClurg "Monkey"</h2>
+                     <p class="vida"><img src="src/imagens/metal-maniacs.png" alt="metal-maniacs" class="icon"></p>
+                </div>
+        
+                 <div class="container-image">
+                      <img src="src/imagens/monkey.png" alt="Monkey" class="imagem-pokemon">
+                 </div>
+        
+                 <div class="descricao">
+                       <h3 class="titulo">Rollin' Thunder,  Rat-ified.</h3>
+                      <p class="texto">Monkey é um tanto medroso e nervoso, mas muito amigável e inteligente, ocupando o cargo principal de mecânico do grupo, sendo capaz de criar o nitrox 3 1/2 e o sparky. Possui uma queda não correspondida pela Lani.</p>
+                 </div>
+            </li>
+
+            <li class="cartao fundo-1">
+                <div class="informacoes">
+                     <h2 class="nome">Gelorum</h2>
+                     <p class="vida"><img src="src/imagens/drone-logo.png" alt="racing-drones" class="icon"></p>
+                </div>
+        
+                 <div class="container-image">
+                      <img src="src/imagens/gelorum.png" alt="Gelorum" class="imagem-pokemon">
+                 </div>
+        
+                 <div class="descricao">
+                       <h3 class="titulo">RD-09.</h3>
+                      <p class="texto">Gelorum, a bela e diabólica líder dos Racing Drones, roubou o anel do poder de Hot Wheels City. sendo criada pelos accelerons para correr, seu unico objetivo é vencer,e agora ela e seus Racing Drones ameaçam se tornar os pilotos mais poderosos do universo.</p>
+                 </div>
+            </li>
+
+            <li class="cartao fundo-1">
+                <div class="informacoes">
+                     <h2 class="nome">RD-L1</h2>
+                     <p class="vida"><img src="src/imagens/drone-logo.png" alt="racing-drones" class="icon"></p>
+                </div>
+        
+                 <div class="container-image">
+                      <img src="src/imagens/Pilotos-rdl1.png" alt="RD-L1" class="imagem-pokemon">
+                 </div>
+        
+                 <div class="descricao">
+                       <h3 class="titulo">RD-08, RD-05, RD-04.</h3>
+                      <p class="texto">Um monstro robótico de metal de dois metros e meio, RD-L1 (Racing Drone Tenente 1) é o principal piloto de Gelorum. Ele não vai parar por nada para reivindicar todos os Accelechargers e destruir seus adversários humanos no processo.</p>
+                 </div>
+            </li>
+
+            <li class="cartao fundo-1">
+                <div class="informacoes">
+                     <h2 class="nome">RD-S1</h2>
+                     <p class="vida"><img src="src/imagens/drone-logo.png" alt="racing-drones" class="icon"></p>
+                </div>
+        
+                 <div class="container-image">
+                      <img src="src/imagens/RD-S1.png" alt="RD-S1" class="imagem-pokemon">
+                 </div>
+        
+                 <div class="descricao">
+                       <h3 class="titulo">RD-01, RD-02, RD-03, RD-06.</h3>
+                      <p class="texto">Compreendendo a maior parte da frota de corrida da Gelorum, os RD-S1 (Racing Drone Soldier 1) podem expandir sua forma básica implantando equipamentos adicionais, incluindo armas e ferramentas especiais.</p>
+                 </div>
+            </li>
+
+            <li class="cartao fundo-1">
+                <div class="informacoes">
+                     <h2 class="nome">Motorcycle Drone</h2>
+                     <p class="vida"><img src="src/imagens/drone-logo.png" alt="racing-drones" class="icon"></p>
+                </div>
+        
+                 <div class="container-image">
+                      <img src="src/imagens/motorcycle_Drone.png" alt="Motorcycle Drone" class="imagem-pokemon">
+                 </div>
+        
+                 <div class="descricao">
+                       <h3 class="titulo">RD-07.</h3>
+                      <p class="texto">Os Drones de Motocicleta são muito diferentes dos RD-S1 e RD-L1 , pois sua estrutura e força são menores que a de um humano, eles podem ser facilmente dominados e até rasgados ao meio por ataques humanos.</p>
+                 </div>
+            </li>
+
+            <li class="cartao fundo-1">
+                <div class="informacoes">
+                     <h2 class="nome">"sweeper-drone" RD-W1</h2>
+                     <p class="vida"><img src="src/imagens/drone-logo.png" alt="racing-drones" class="icon"></p>
+                </div>
+        
+                 <div class="container-image">
+                      <img src="src/imagens/sweepers-drones.png" alt="sweeper-drone" class="imagem-pokemon">
+                 </div>
+        
+                 <div class="descricao">
+                       <h3 class="titulo">Sweeper.</h3>
+                      <p class="texto">Enquanto os drones RD-W1 não dirigem nenhum carro, eles são usados ​​nos Reinos por Sweepers. Eles saem dos Sweepers em decúbito dorsal, prendendo-se embaixo do veículo alvo para assumir o controle e forçá-lo a entrar no Sweeper.</p>
+                 </div>
+            </li>
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="src/imagens/seta.png" alt="seta avançar">
+        </button>
+    </main>
+
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
